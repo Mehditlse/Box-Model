@@ -1,0 +1,87 @@
+body {
+    background-color: #CCC;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 48px;
+}
+
+#page {
+    width: 750px;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+
+    padding: 16px;
+}
+
+nav {
+    background-color: #EEEEEE;
+    text-align: center;
+
+    padding: 8px;
+}
+
+header,
+main {
+    padding: 8px 16px;
+}
+
+a {
+    color: #F02425;
+    text-decoration: none;
+
+    margin: 0 8px;
+}
+
+h2 {
+    color: #777777;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+
+    font-size: 28px;
+
+    /*
+     * La propriété border se divise en 4 sous propriété si l'on a besoin de définir
+     * seuleument un des cotés.
+     */
+    border-bottom: 4px solid #777777;
+
+    padding: 16px;
+
+    margin-bottom: 8px;
+}
+
+img {
+    border: 2px solid #000;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+
+    /*
+     * J'indique ici une valeur en pourcentage
+     * Ce qui veut que mon image va venir occuper X % de l'espace disponible
+     */
+    width: 100%;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 4px 0;
+}
+
+p {
+    margin: 4px 0;
+}
+
+footer {
+    margin-top: 32px;
+    text-align: center;
+    background-color: #EEEEEE;
+    padding: 16px;
+}
