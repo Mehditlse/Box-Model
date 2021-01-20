@@ -65,3 +65,12 @@ h1 {
 Pour les block les marge horizontale peuvent prendre une valeur spéciale : `auto`.
 
 Pour ça il faut que l'élément ai une width de définit et dans ce cas le navigateur répartira de même la marge à droite et à gauche de notre block de manière à le centrer.
+
+## <div> et <span>
+
+Il arrive qu'on ai besoin de rajouter des balises pour une meilleure mise en forme.
+
+Pour le ça le HTML fourni deux balise :
+
+- `<div>` qui a juste le statut de block
+- `<span>` qui a juste le statut de inline
